@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+
+  #quizZone {
+    display: grid;
+    grid-template-rows: 8rem 8rem 2rem;
+    align-items: center;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  #choiceGrid {
+    display: grid;
+  }
+
+  .choices {
+
+  }
+
+  #score {
+    text-align: center;
+  }
