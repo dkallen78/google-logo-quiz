@@ -1,13 +1,7 @@
 # google-logo-quiz
 
 ```
-| Left-aligned   | Center-aligned | Right-aligned  |
-| :---           |     :---:      |          ---:  |
-| Android Police | Android Police | Android Police |
-| Valnet         | Valnet         | Valnet         |
+Press <kbd>.</kbd> to launch the GitHub VSCode web editor.
 ```
 
-| Left-aligned   | Center-aligned | Right-aligned  |
-| :---           |     :---:      |          ---:  |
-| Android Police | Android Police | Android Police |
-| Valnet         | Valnet         | Valnet         |
+Press <kbd>.</kbd> to launch the GitHub VSCode web editor.
