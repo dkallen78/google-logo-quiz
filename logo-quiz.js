@@ -13,18 +13,29 @@ function rnd(floor, ceiling) {
 }
 
 function rndNums(num, floor, ceiling) {
-    let nums1 = [];
-    let nums2 = [];
+    //----------------------------------------------------//
+    //Generates an array of unique random numbers within  //
+    //  a range                                           //
+    //----------------------------------------------------//
+    //num(integer): number of random numbers to generate  //
+    //floor(integer): lower bound of the random numbers   //
+    //ceiling(integer): upper bound of the random numbers //
+    //----------------------------------------------------//
+    //return(array[integers]): random numbers             //
+    //----------------------------------------------------//
+
+    let numsRange = [];
+    let rndSet = [];
 
     for (let i = floor; i <= ceiling; i++) {
-        nums1.push(i);
+        numsRange.push(i);
     }
 
     for (let i = 0; i < num; i++) {
-        nums2.push(nums1.splice(rnd(0, nums1.length - 1), 1)[0]);
+        rndSet.push(numsRange.splice(rnd(0, numsRange.length - 1), 1)[0]);
     }
 
-    return nums2;
+    return rndSet;
 }
 
 function makeElement(type, id, ...classes) {
